@@ -43,7 +43,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-ZeroBot ✨
+MARVEL || SYSTEM
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -1210,7 +1210,7 @@ client.on('ready',  () => {
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 100000 ;
-    var setGame = [`!help Servers ${client.guilds.size} `,`!invite Users ${client.users.size}`];
+    var setGame = [`wlc to Marvel server`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -13268,8 +13268,8 @@ client.on('message', msg => {
 });
 client.on('message', msg => {
   if (msg.content === '.') {
-    msg.channel.send(' **__Welcome To Źerø Server__** ');
+    msg.channel.send(' **__Welcome To Marvel land Server__** ');
   }
 });
 	
-client.login('NTI5MDQ0MjY1NzU4ODgzODQx.DwrGgQ.R6RvkoYRQIqwoxNUAYRy6R0n49Q');
+client.login('NTI5MDcyNTk5NjA3ODAzOTI1.DwrhEw.gpmZLRkNSsFp1GZFiANaA0D23Sg');
